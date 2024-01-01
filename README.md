@@ -15,19 +15,7 @@ Service Ressource : qui permet de gérer des ressources, une ressource est défi
 Service de Réservation : qui permet de gérer les réservations effectuées par des personnes. Une réservation est définie par son identifiant, son nom,
 son contexte, sa date, sa durée. Chaque réservation est effectuée par une seule personne. Une personne est définie par son identifiant, son nom, son email et sa fonction.
 
-## Outils
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](	https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-```
-- Spring Cloud
-- Eureka Discovery
-- H2DataBase
-- Keycloak
-- Docker
-```
+
 
 ##  Structure du Projet
 ```
@@ -45,7 +33,6 @@ Ressource-Reservation-App
                     |__ reservation-detail
                     |__ reservation
                     |__ ressource
-                    |__ welcome
                 |__ services
 
   |__ config-git-repo
@@ -126,7 +113,7 @@ Ressource-Reservation-App
 </table>
 <br>
 
-## Ressource Service API Doc
+## Ressource Service Documentation
 <table align="center">
   <tr>
     <th>Rest API</th>
@@ -152,7 +139,7 @@ Ressource-Reservation-App
 </table>
 <br>
 
-## Reservation Service API Doc
+## Reservation Service Documentation
 <table align="center">
   <tr>
     <th>Reservation Rest API</th>
@@ -183,7 +170,7 @@ Ressource-Reservation-App
 
     Authentication
   <tr>
-    <td><img src="screenshots/51.png"/></td>
+    <td><img src="screenshots/login.png"/></td>
   </tr>
 
 <table align="center">
